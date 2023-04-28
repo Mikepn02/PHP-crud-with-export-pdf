@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin: 5em 0;
+    /* overflow: none; */
+}
+.container{
+    width: 40vw;
+    /* margin-bottom: 20em; */
+    border-radius: 10px;
+    height: 85vh;
+    /* justify-content: center; */
+    /* display: flex; */
+    padding: 0em 2em 2em 2em;
+    background-color: #fff;
+    box-shadow: 0 10px 15px rgba(179, 179, 179, 0.7);
+    position: relative;
+    /* padding: 1rem; */
+}
+input{
+    text-indent: 15px;
+}
+.gender{
+    float: left;
+}
+input[type='radio']{
+    margin-top: 1em;
+    /* display: flex; */
+}
+.link-header{
+    padding: 0em 0;
+    /* text-align: center; */
+    font-size: small ;
+}
+
+.text h1{
+    font-size: large;
+}
+.text p{
+    font-size: 0.8em;
+    padding-top: 0.5em;
+    color: rgba(0, 0, 0, 0.548);
+}
+.in {
+    font-size: 1.8rem;
+    /* padding-left: .2rem; */
+    background-color: blue;
+    color: #fff;
+
+}
+.link-text{
+    color: blue;
+    padding: 1em 0;
+    font-weight: bolder;    
+}
+.link-text span{
+    background: blue;
+    padding: 4px 8px;
+    color: white;
+}
+.input {
+    width: 100%;
+    height: 3em;
+    padding: 0.5em;
+    border-radius: 6px;
+    border: 2px solid dodgerblue;
+    background: white;
+}
+.your-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    padding: 1em 0 0 0;
+}
+.your-input input label{
+    font-size: 1.1rem;
+    color: grey;
+    transition: .2s;
+}
+.input input:focus ~ label,
+.input input:valid ~ label{
+    top: 10%;
+    font-size: 8rem;
+    color: black;
+}
+input input:focus{
+    border-width: 2px;
+    border-color: blue;
+}
+.forgot-password-link {
+    font-size: x-small;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: dodgerblue;
+    transition: .3s;
+    border-radius: 2px;
+}
+.forgot-password-link:hover{
+    background: rgba(10, 102, 195, 0.3)
+}
+.join-link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-small;
+    text-decoration: none;
+    font-weight: bolder;
+    color: dodgerblue;
+    transition: .3s;
+    border-radius: 2px;
+}
+.container h2 [in]{
+    color: #fff;
+    background-color: blue;
+};
+.submit-input{
+    padding: 2em 0;
+}
+.submit-input input{
+    width: 100%;
+    padding: auto;
+    height: 3.5em;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: 1em 0;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: white;
+    /* border-radius: 20px; */
+    font-weight: bold;
+}
+.footer{
+    padding: 1em 0;
+}
+.btn {
+  background-color: blue;
+  height: 4em;
+  width: 7em;
+  border: none;
+  border-radius: 10px;
+
+}
+.btn a{
+  color: white;
+  text-decoration: none;
+}
