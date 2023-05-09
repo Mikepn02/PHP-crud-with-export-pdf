@@ -15,7 +15,7 @@
       border-top: 1px solid black;
   }
   th{
-     background-color: blue;
+     background-color: dodgerblue;
      color: white;
      border-color: greenyellow;
   }
@@ -44,7 +44,7 @@
       margin-top: 8em;
   }
 nav{
-      background-color: blue;
+      background-color: dodgerblue;
       position: absolute;
       width: 100%;
       height: 5em;
@@ -63,24 +63,23 @@ nav{
   .user{
     margin-left: 5em;
     height: 4em;
-
     border: none;
-
+    display: flex;
     color: white;
     text-decoration: none;
   }
   .user a{
     text-decoration: none;
     font-size: large;
-    color: blue;
+    color: dodgerblue;
   }
 form input{
     margin-left: 5em;
-    height: 4em;
+    height: 3em;
     width: 80px;
     border: none;
     color: white;
     text-decoration: none;
-    background-color: blue;
+    background-color: dodgerblue;
 }
 

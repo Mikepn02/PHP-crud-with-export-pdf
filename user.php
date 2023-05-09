@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type='text/css' href="style.css">
+  <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
   <title>Document</title>
 </head>
 <div class="container">
@@ -40,13 +40,6 @@
     </div>
 
   </form>
-  <!-- <div class="footer">
-    <p class="join-link"> 
-      <a href="index.php" class="join-now">
-        Login
-      </a>
-    </p>
-  </div> -->
 </div>
 
 </body>

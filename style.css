@@ -10,20 +10,16 @@ body{
     justify-content: center;
     place-items: center;
     margin: 5em 0;
-    /* overflow: none; */
 }
 .container{
     width: 40vw;
-    /* margin-bottom: 20em; */
     border-radius: 10px;
-    height: 85vh;
-    /* justify-content: center; */
-    /* display: flex; */
+    height: 90vh;
     padding: 0em 2em 2em 2em;
     background-color: #fff;
     box-shadow: 0 10px 15px rgba(179, 179, 179, 0.7);
     position: relative;
-    /* padding: 1rem; */
+
 }
 .join-link {
     color: blue;
