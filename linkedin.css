@@ -129,7 +129,7 @@ input input:focus{
 }
 .error {
     background-color: #F2Dede;
-    color: #a94442;
+    color: red;
     padding: 10px;
     width: 95%;
     border-radius: 7px;

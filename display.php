@@ -28,7 +28,6 @@ include 'connect.php';
     <th>First name</th>
     <th>Last name</th>
     <th>Email</th>
-    <th>Password</th>
     <th>Gender</th>
     <th>Action</th>
 </tr>
@@ -52,7 +51,6 @@ if($result== true){
     <td>$first_name</td>
     <td>$last_name</td>
     <td>$email</td>
-    <td>$password</td>
     <td>$gender</td>
     <td>
     <a href='delete.php?deleteid=$id' class='fas fa-trash-alt'></a>
@@ -71,8 +69,12 @@ if($result== true){
   <div class="user">
   <a href="user.php"><?php echo '<i class="fas fa-user-secret"></i>'; ?>New User</a><i class="fa-solid fa-user-secret"></i></a>
   <a href="pdf.php">Export to PDF <?php echo '<i class="fas fa-book"></i>';?></a>
+  <form action="csv.php" method="post">
+    <input type="submit"  value="CSV" name="export" id="export">
+   
+  </form>
+  </div>
   </div>
 
-    </div>
 </body>
 </html>

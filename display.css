@@ -74,4 +74,13 @@ nav{
     font-size: large;
     color: blue;
   }
+form input{
+    margin-left: 5em;
+    height: 4em;
+    width: 80px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+}
 
