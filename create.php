@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
     $result = $conn->query($sql);
     if($result == true){
         // echo "Data inserted successfully!!!"; 
-        header('location:display.php');
+        header('location:user.php');
     }else{
         echo 'Error:',$sql.'<br>'.$conn -> error;
     }
